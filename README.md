@@ -42,7 +42,7 @@ Ser capaz de entregar e desenvolver um software do mundo real funcionando de uma
 	1.4. Change Password <br />
 	1.5. Edit Profile <br />
 
-**2. Gigs**
+**2. Gigs** <br />
 	2.1. Add a Gig <br />
 	2.2. My Upcoming Gigs (por artista) <br />
 	2.3. Edit a Gig <br />
@@ -51,12 +51,12 @@ Ser capaz de entregar e desenvolver um software do mundo real funcionando de uma
 	2.6. Search <br />
 	2.7. View Gig Details <br />
  
-**3. Gig Calendar**
+**3. Gig Calendar** <br />
 	3.1. Add a Gig to Calendar <br />
 	3.2. Remove a Gig from Calendar <br />
 	3.3) View Gigs I'm Attending <br />
 
-**4. Following**
+**4. Following** <br />
 	4.1. Follow an Artist <br />
 	4.2. Unfollow an Artist <br />
 	4.3. Who I'm Following <br />
