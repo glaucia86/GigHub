@@ -1,4 +1,4 @@
-# Projeto - GigHub (Rede Social)
+# Projeto - GigHub (A Rede Social para Músicos)
 
 Desenvolvimento de uma Rede Social chamada GigHub, onde tem a intenção de poder controlar as aprensetações dos músicos através da rede social. O projeto é pré-proposto de acordo com o curso do PluralSight: *Become Full-Stack .NET Developer*. O curso tem como objetivo desenvolver um projeto do mundo real de A-Z (desde o levantamento de requisitos até o desenvolvimento do Back/Front-End)
 O curso está dividido em 3 fases:
@@ -93,7 +93,9 @@ p.s.: Todos os *BackLogs* foram adicionados no TFS (Visual Studio Online). Uma v
  
 ## Atualização dos BackLogs (Semana 1: 28/06/2016 à 04/07/2016):
 
+* BackLog: Add a Gig:
 
+![alt tag](http://i63.tinypic.com/2en9p52.png)
 
 
 **(Documentação em Desenvolvimento!!!)**
