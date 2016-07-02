@@ -1,6 +1,7 @@
 #GigHub - The Social Network for Music Lovers (Em Desenvolvimento)
 
-Desenvolvimento de uma Rede Social chamada GigHub. GigHub é uma mini Rede Social onde tem o objetivo de tornar fácil para os amantes de músicas escutar e acompanhar as principais apresentações de seus artistas favoritos. O projeto é pré-proposto de acordo com o curso do PluralSight: *Become Full-Stack .NET Developer*. O curso tem como objetivo desenvolver um projeto do mundo real de A-Z (desde o levantamento de requisitos até o desenvolvimento do Back/Front-End)
+Desenvolvimento de uma Rede Social chamada GigHub. GigHub é uma mini Rede Social onde tem o objetivo de tornar fácil para os amantes de músicas escutar e acompanhar as principais apresentações de seus artistas favoritos. O projeto é pré-proposto de acordo com o curso do PluralSight: *Become Full-Stack .NET Developer*. O curso tem como objetivo desenvolver um projeto do mundo real de A-Z (desde o levantamento de requisitos até o desenvolvimento do Back/Front-End). Desenvolvimento End-to-End.
+
 O curso está dividido em 3 fases:
 
 - Become Full-Stack .NET Developer - Fundamentals (Nível Júnior);
