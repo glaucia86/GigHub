@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using GigHub.Models;
 
@@ -20,5 +21,11 @@ namespace GigHub.ViewModels
 
         /* Aqui é para criar uma lista de Gêneros Musicais para a nossa View */
         public IEnumerable<Genre> Genres { get; set; }
+
+        public DateTime DateTime
+        {
+            get { return DateTime.Parse(string.Format("{0} {1}", Date, Time)); }
+            
+        }
     }
 }
