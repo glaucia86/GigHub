@@ -17,6 +17,7 @@ namespace GigHub.Models
         /* Propriedade: Local */
         public string Venue { get; set; }
 
+        [Display(Name = "Data da Apresentação")]
         public DateTime DateTime { get; set; }
 
         [Required]
