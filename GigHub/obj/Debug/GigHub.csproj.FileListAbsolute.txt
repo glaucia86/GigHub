@@ -58,3 +58,4 @@ C:\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.Cache
 C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable.resources
 C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConvetionsForGigsAndGenres.resources
 C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGenresTable.resources
+C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForeignKeyPropertiesToGig.resources
