@@ -8,21 +8,22 @@
 <h2>Adicionar Show</h2>
 @using (Html.BeginForm("Create", "Gigs"))
 {
+    <p class="alert alert-info">Todos os campos são <strong>obrigatórios</strong></p>
     @Html.AntiForgeryToken()
     <form>
         <div class="form-group">
             @Html.LabelFor(m => m.Venue)
-            @Html.TextBoxFor(m => m.Venue, new { @class = "form-control" })
+            @Html.TextBoxFor(m => m.Venue, new { @class = "form-control", autofocus = "autofocus" })
             @Html.ValidationMessageFor(m=> m.Venue)
         </div>
         <div class="form-group">
             @Html.LabelFor(m => m.Date)
-            @Html.TextBoxFor(m => m.Date, new { @class = "form-control" })
+            @Html.TextBoxFor(m => m.Date, new { @class = "form-control", placeholder = "ex 1 Jan 2015" })
             @Html.ValidationMessageFor(m => m.Date)
         </div>
         <div class="form-group">
             @Html.LabelFor(m => m.Time)
-            @Html.TextBoxFor(m => m.Time, new { @class = "form-control" })
+            @Html.TextBoxFor(m => m.Time, new { @class = "form-control", placeholder = "ex 20:00" })
             @Html.ValidationMessageFor(m => m.Time)
         </div>
         <div class="form-group">
