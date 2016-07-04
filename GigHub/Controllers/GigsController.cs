@@ -31,6 +31,7 @@ namespace GigHub.Controllers
         /* Action para poder enviar as informações do formulário "Adicionar Apresentação" */
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(GigViewModel viewModel)
         {
             if (!ModelState.IsValid)
