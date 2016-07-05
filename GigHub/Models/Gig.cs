@@ -5,7 +5,7 @@ namespace GigHub.Models
 {
     public class Gig
     {
-        /* Propriedade: Id*/
+        /* Propriedade: Id */
         public int Id { get; set; }
 
         /* Propriedade: Artista */
