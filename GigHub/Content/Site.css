@@ -91,24 +91,16 @@ h6,
     border-radius: 9px;
 }
 
-.form-control:focus {
-    border-color: #2196f3;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-
-
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
 
-/* Page-level Styles */
+/* Page-level styles */
 
 /* Configuração de estilo do calendário dos shows */
-
 .gigs {
     list-style: none;
 }
@@ -127,7 +119,7 @@ h6,
     border-radius: 8px;
 }
 
-    .gigs > li .date .month {
+.gigs > li .date .month {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
@@ -135,23 +127,23 @@ h6,
 }
 
     .gigs > li .date .day {
-    background: #eeeeee   ;
-    color: #333;
-    font-size: 20px;
-    padding: 6px 12px;
-}
+        background: #f7f7f7;
+        color: #333;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
 
 .gigs > li .details {
     position: absolute;
     top: 0;
-    left: 70px;
+    left: 70px;    
 }
 
     .gigs > li .details .artist {
-    font-weight: bold;
-    display: block;
-}
+        font-weight: bold;
+        display: block;
+    }
 
     .gigs > li .details .genre {
-    font-size: 15px;
-}
+        font-size: 15px;
+    }

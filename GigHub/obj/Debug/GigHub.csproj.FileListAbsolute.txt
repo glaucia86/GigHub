@@ -60,3 +60,10 @@ C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConvetionsForGigsA
 C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGenresTable.resources
 C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForeignKeyPropertiesToGig.resources
 C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNameToApplicationUser.resources
+C:\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddAttendance.resources
+C:\Projects\GigHub\GigHub\bin\System.Net.Http.Formatting.dll
+C:\Projects\GigHub\GigHub\bin\System.Web.Http.dll
+C:\Projects\GigHub\GigHub\bin\System.Web.Http.WebHost.dll
+C:\Projects\GigHub\GigHub\bin\System.Net.Http.Formatting.xml
+C:\Projects\GigHub\GigHub\bin\System.Web.Http.xml
+C:\Projects\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
