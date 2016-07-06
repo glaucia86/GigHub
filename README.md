@@ -25,8 +25,10 @@ O curso está dividido em 3 fases:
 * Clean Architecture;
 * Automated Testing;
 * Visual Studio 2013;
-* TFS/Git
-* Scrum/Agile Methodology
+* FluentAPI;
+* WebAPI 2;
+* TFS/Git;
+* Scrum/Agile Methodology;
 
 
 ##Objetivo do Projeto:
@@ -83,20 +85,27 @@ p.s.: Todos os *BackLogs* foram adicionados no TFS (Visual Studio Online). Uma v
 
 (colocar imagem)
 
-### 4. Use Cases Principais a serem desenvolvidos:
+### 4. Use Cases Principais a serem desenvolvidos (Nível 1):
 
-1. Add a gig <br />
-2. All upcoming gigs <br />
-3. Add a gig to calendar <br />
-4. Follow an artist <br />
-5. View gigs I'm attending <br />
-6. Who I'm following <br />
+	1. Add a gig <br />
+	2. All upcoming gigs <br />
+	3. Add a gig to calendar <br />
+	4. Follow an artist <br />
+	5. View gigs I'm attending <br />
+	6. Who I'm following <br />
  
-## Atualização dos BackLogs (Semana 1: 28/06/2016 à 04/07/2016):
+## Atualização dos BackLogs (Semana 1: 28/06/2016 à 05/07/2016):
 
-* BackLog: Add a Gig:
+* BackLogs Desenvolvidos: 
 
-![alt tag](http://i63.tinypic.com/2en9p52.png)
+	1. Add a gig <br />
+	2. All upcoming gigs <br />
+	3. Add a gig to calendar <br />
+	4. Follow an artist <br />
+	5. View gigs I'm attending <br />
+	6. Who I'm following <br />
+
+![alt tag](http://i68.tinypic.com/ogkhlz.png)
 
 
 **(Documentação em Desenvolvimento!!!)**
