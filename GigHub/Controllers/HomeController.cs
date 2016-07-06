@@ -3,6 +3,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web.Mvc;
 using GigHub.Models;
+using GigHub.ViewModels;
 
 namespace GigHub.Controllers
 {
@@ -22,7 +23,16 @@ namespace GigHub.Controllers
                 .Include(g => g.Genre)
                 .Where(g => g.DateTime > DateTime.Now);
 
-            return View(upComingGigs);
+            /* Lógica que permitirá que somente os usuários que estejam logrados no sistema possam 
+             * interagir com os botões: 'Bora' e 'Seguindo'*/
+            var viewModel = new GigsViewModel
+            {
+                UpcomingGigs = upComingGigs,
+                ShowActions = User.Identity.IsAuthenticated,
+                Heading = "Próximos Shows"
+            };
+
+            return View("Gigs", viewModel);
         }
 
         public ActionResult About()

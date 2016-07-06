@@ -9,7 +9,7 @@
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@User.Identity.GetUserName()<span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Shows Que Irei</a></li>
+                <li><a href="@Url.Action("Attending", "Gigs")">Shows Que Estarei</a></li>
                 <li><a href="#">Seguindo Artistas</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="javascript:document.getElementById('logoutForm').submit()">Sair</a></li>
@@ -22,7 +22,7 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        <li>@Html.ActionLink("Registrar", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Entrar", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
     </ul>
 }

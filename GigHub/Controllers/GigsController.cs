@@ -1,6 +1,8 @@
-﻿using GigHub.Models;
+﻿using System.Data.Entity;
+using GigHub.Models;
 using GigHub.ViewModels;
 using System.Linq;
+using System.Web.Http;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 
@@ -15,7 +17,29 @@ namespace GigHub.Controllers
             _context = new ApplicationDbContext();
         }
 
-        [Authorize]
+        /* Esse método aqui é para poder obter a lista dos shows */
+        [System.Web.Mvc.Authorize]
+        public ActionResult Attending()
+        {
+            var userId = User.Identity.GetUserId();
+            var gigs = _context.Attendances
+                .Where(a => a.AttendeeId == userId)
+                .Select(a => a.Gig)
+                .Include(g => g.Artist)
+                .Include(g => g.Genre)
+                .ToList();
+
+            var viewModel = new GigsViewModel()
+            {
+                 UpcomingGigs  = gigs,
+                 ShowActions = User.Identity.IsAuthenticated,
+                 Heading = "Shows Que Estarei!"
+            };
+
+            return View("Gigs", viewModel);
+        }
+
+        [System.Web.Mvc.Authorize]
         public ActionResult Create()
         {
             var viewModel = new GigViewModel
@@ -27,8 +51,8 @@ namespace GigHub.Controllers
         }
 
         /* Action para poder enviar as informações do formulário "Adicionar Apresentação" */
-        [Authorize]
-        [HttpPost]
+        [System.Web.Mvc.Authorize]
+        [System.Web.Mvc.HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(GigViewModel viewModel)
         {
