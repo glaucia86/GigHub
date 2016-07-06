@@ -85,18 +85,18 @@ p.s.: Todos os *BackLogs* foram adicionados no TFS (Visual Studio Online). Uma v
 
 (colocar imagem)
 
-### 4. Use Cases Principais a serem desenvolvidos (Nível 1):
+### 4. Use Cases Principais a serem desenvolvidos (Nível 1) - (Semana 1: 28/06/2016 à 05/07/2016):
 
-	1. Add a gig <br />
-	2. All upcoming gigs <br />
-	3. Add a gig to calendar <br />
-	4. Follow an artist <br />
-	5. View gigs I'm attending <br />
-	6. Who I'm following <br />
+	1. Add a gig 
+	2. All upcoming gigs 
+	3. Add a gig to calendar 
+	4. Follow an artist
+	5. View gigs I'm attending 
+	6. Who I'm following 
  
 ## Atualização dos BackLogs (Semana 1: 28/06/2016 à 05/07/2016):
 
-* BackLogs Desenvolvidos: 
+* Backlogs Desenvolvidos: 
 
 	1. Add a gig <br />
 	2. All upcoming gigs <br />
