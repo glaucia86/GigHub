@@ -1,10 +1,9 @@
 ﻿using System.Data.Entity;
 using GigHub.Models;
 using GigHub.ViewModels;
-using System.Linq;
-using System.Web.Http;
-using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
+using System.Linq;
+using System.Web.Mvc;
 
 namespace GigHub.Controllers
 {
@@ -18,7 +17,7 @@ namespace GigHub.Controllers
         }
 
         /* Esse método aqui é para poder obter a lista dos shows */
-        [System.Web.Mvc.Authorize]
+        [Authorize]
         public ActionResult Attending()
         {
             var userId = User.Identity.GetUserId();
@@ -39,7 +38,7 @@ namespace GigHub.Controllers
             return View("Gigs", viewModel);
         }
 
-        [System.Web.Mvc.Authorize]
+        [Authorize]
         public ActionResult Create()
         {
             var viewModel = new GigViewModel
@@ -51,8 +50,8 @@ namespace GigHub.Controllers
         }
 
         /* Action para poder enviar as informações do formulário "Adicionar Apresentação" */
-        [System.Web.Mvc.Authorize]
-        [System.Web.Mvc.HttpPost]
+        [Authorize]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(GigViewModel viewModel)
         {
