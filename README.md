@@ -8,7 +8,7 @@ O curso está dividido em 3 fases:
 - Become Full-Stack .NET Developer - Advanced Topics (Nível Pleno);
 - Become Full-Stack .NET Developer - Architecture and Testing (Nível Sênior);
 
-##Assuntos e Tecnologias Desenvolvidas no projeto: 
+## Assuntos e Tecnologias Desenvolvidas no projeto: 
 
 * Construção de UI (User-Interface); 
 * Construção Back-End APIs;
@@ -31,10 +31,10 @@ O curso está dividido em 3 fases:
 * Scrum/Agile Methodology;
 
 
-##Objetivo do Projeto:
+## Objetivo do Projeto:
 Ser capaz de entregar e desenvolver um software do mundo real funcionando de uma forma sistemática.
 
-##Levantamento de Requisitos:
+## Levantamento de Requisitos:
 
 ### 1. Use Cases (a serem implementados no projeto):
 
